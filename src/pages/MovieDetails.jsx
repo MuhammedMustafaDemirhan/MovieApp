@@ -7,7 +7,8 @@ import Actors from "../components/Actors";
 import { UserContext } from "../contexts/UserContext";
 
 const apiUrl = "https://api.themoviedb.org/3";
-const api_key = "b93ccaebf15383ef98669a139312da84";
+const api_key = import.meta.env.VITE_TMDB_API_KEY;
+
 const language = "tr-TR";
 
 export default function MovieDetails() {
