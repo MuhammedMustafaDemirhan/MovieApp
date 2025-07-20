@@ -19,7 +19,15 @@ MovieApp, React ve Bootstrap kullanılarak geliştirilmiş, TheMovieDB API’si 
 - Vite (hızlı geliştirme ortamı) 
 - Bootstrap  
 - TheMovieDB API  
-- Context API  
+- Context API
+
+## Ekran Görüntüleri
+
+![Ana Sayfa](./public/img/Anasayfa.png)  
+_Ana sayfa görüntüsü_
+
+![Film Detayları](./public/img/FilmDetay.png)  
+_Film detayları sayfası_  
 
 ## Kurulum ve Çalıştırma
 
