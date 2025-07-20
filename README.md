@@ -36,15 +36,19 @@ _Film detayları sayfası_
    git clone https://github.com/MuhammedMustafaDemirhan/MovieApp.git
    
 2. Proje klasörüne girin:
+   ```bash
    cd MovieApp
 
 3. Gerekli bağımlılıkları yükleyin:
+   ```bash
    npm install
 
 4. .env dosyası oluşturun ve içine API anahtarınızı ekleyin
-  VITE_TMDB_API_KEY=your_api_key_here
+   ```bash
+   VITE_TMDB_API_KEY=your_api_key_here
 
 5. Uygulamayı başlatın:
+   ```bash
    npm run dev
 
 ## İletişim
