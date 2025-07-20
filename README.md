@@ -1,12 +1,48 @@
-# React + Vite
+# MovieApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieApp, React ve Bootstrap kullanılarak geliştirilmiş, TheMovieDB API’si üzerinden film araması yapabileceğiniz ve detaylı film bilgilerine ulaşabileceğiniz modern bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Popüler filmleri ana sayfada görüntüleme  
+- Film araması yapabilme  
+- Seçilen filmin detay sayfasında; oyuncular, yapım tarihi, ülkesi, çıkış tarihi ve benzer filmler gibi kapsamlı bilgiler  
+- Beğenilen filmler listesine film ekleyip çıkarabilme  
+- Responsive ve kullanıcı dostu arayüz (Bootstrap ile tasarlandı)  
+- Global Context API kullanımı ile uygulama genelinde yönetim  
+- React Hooks ve validation kontrolleri ile dinamik ve güvenilir kullanıcı deneyimi  
+- Modern layout ve bileşen yapısı  
 
-## Expanding the ESLint configuration
+## Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional Components, Hooks)
+- Vite (hızlı geliştirme ortamı) 
+- Bootstrap  
+- TheMovieDB API  
+- Context API  
+
+## Kurulum ve Çalıştırma
+
+1. Depoyu klonlayın:  
+   ```bash
+   git clone https://github.com/MuhammedMustafaDemirhan/MovieApp.git
+   
+2. Proje klasörüne girin:
+   cd MovieApp
+
+3. Gerekli bağımlılıkları yükleyin:
+   npm install
+
+4. .env dosyası oluşturun ve içine API anahtarınızı ekleyin
+  VITE_TMDB_API_KEY=your_api_key_here
+
+5. Uygulamayı başlatın:
+   npm run dev
+
+## İletişim
+
+Her türlü soru, öneri veya geri bildirim için benimle iletişime geçebilirsiniz:
+
+- **E-posta:** [muhammedmustafademirhan@gmail.com](mailto:muhammedmustafademirhan@gmail.com)
+- **LinkedIn:** [linkedin.com/in/muhammedmustafademirhan](https://www.linkedin.com/in/muhammedmustafademirhan/)  
+- **Instagram:** [instagram.com/mami.dmrhn](https://www.instagram.com/mami.dmrhn/)
