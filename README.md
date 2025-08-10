@@ -51,6 +51,10 @@ _Film detayları sayfası_
    ```bash
    npm run dev
 
+## Kaynaklar ve İlham
+
+- https://www.udemy.com/course/komple-web-developer-kursu/
+
 ## İletişim
 
 Her türlü soru, öneri veya geri bildirim için benimle iletişime geçebilirsiniz:
